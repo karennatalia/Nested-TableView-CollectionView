@@ -13,6 +13,11 @@
 		5F202A792810F5A5009BDAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F202A772810F5A5009BDAEC /* Main.storyboard */; };
 		5F202A7B2810F5A6009BDAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F202A7A2810F5A6009BDAEC /* Assets.xcassets */; };
 		5F202A7E2810F5A6009BDAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F202A7C2810F5A6009BDAEC /* LaunchScreen.storyboard */; };
+		5F202A872810F755009BDAEC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F202A852810F755009BDAEC /* CategoryCell.swift */; };
+		5F202A882810F755009BDAEC /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F202A862810F755009BDAEC /* CategoryCell.xib */; };
+		5F202A8A28112139009BDAEC /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F202A8928112139009BDAEC /* MenuModel.swift */; };
+		5F202A8C28112530009BDAEC /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F202A8B28112530009BDAEC /* BannerCell.swift */; };
+		5F202A8E281127F0009BDAEC /* ImageBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F202A8D281127F0009BDAEC /* ImageBannerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5F202A7A2810F5A6009BDAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F202A7D2810F5A6009BDAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F202A7F2810F5A6009BDAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F202A852810F755009BDAEC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5F202A862810F755009BDAEC /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		5F202A8928112139009BDAEC /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		5F202A8B28112530009BDAEC /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		5F202A8D281127F0009BDAEC /* ImageBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBannerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				5F202A7A2810F5A6009BDAEC /* Assets.xcassets */,
 				5F202A7C2810F5A6009BDAEC /* LaunchScreen.storyboard */,
 				5F202A7F2810F5A6009BDAEC /* Info.plist */,
+				5F202A852810F755009BDAEC /* CategoryCell.swift */,
+				5F202A862810F755009BDAEC /* CategoryCell.xib */,
+				5F202A8928112139009BDAEC /* MenuModel.swift */,
+				5F202A8B28112530009BDAEC /* BannerCell.swift */,
+				5F202A8D281127F0009BDAEC /* ImageBannerCell.swift */,
 			);
 			path = "Coding With Kak Zein";
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 				5F202A7E2810F5A6009BDAEC /* LaunchScreen.storyboard in Resources */,
 				5F202A7B2810F5A6009BDAEC /* Assets.xcassets in Resources */,
 				5F202A792810F5A5009BDAEC /* Main.storyboard in Resources */,
+				5F202A882810F755009BDAEC /* CategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +156,11 @@
 			files = (
 				5F202A762810F5A5009BDAEC /* ViewController.swift in Sources */,
 				5F202A722810F5A5009BDAEC /* AppDelegate.swift in Sources */,
+				5F202A8A28112139009BDAEC /* MenuModel.swift in Sources */,
 				5F202A742810F5A5009BDAEC /* SceneDelegate.swift in Sources */,
+				5F202A8E281127F0009BDAEC /* ImageBannerCell.swift in Sources */,
+				5F202A872810F755009BDAEC /* CategoryCell.swift in Sources */,
+				5F202A8C28112530009BDAEC /* BannerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
